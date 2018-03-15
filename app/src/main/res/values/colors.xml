@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5d72e4</color>
+    <color name="colorPrimaryDark">#4e60d4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="circleprogessbar">#015b09</color>
+
+    <color name="bk">#6d83ff</color>
+    <color name="start">#007608</color>
+    <color name="pause">#3f7401</color>
+
+    <color name="stop">#f4090283</color>
+
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+               xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bk"
+    tools:context="com.example.ibrahim_pc.stopwatch.MainActivity">
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/cpv_id"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        CircleProgressView:cpv_autoTextColor="@color/circleprogessbar"
+        CircleProgressView:cpv_autoTextSize="true"
+
+        CircleProgressView:cpv_barWidth="10dp"
+        CircleProgressView:cpv_maxValue="59"
+
+        CircleProgressView:cpv_outerContourSize="0dp"
+
+        CircleProgressView:cpv_rimWidth="2dp"
+        CircleProgressView:cpv_seekMode="true"
+        CircleProgressView:cpv_showUnit="true"
+        CircleProgressView:cpv_textScale="1"
+
+        CircleProgressView:cpv_unit="sec"
+        CircleProgressView:cpv_unitPosition="right_top"
+
+        CircleProgressView:cpv_unitScale="1"
+        CircleProgressView:cpv_value="0"
+
+
+        />
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Chronometer_id"
+        android:layout_marginTop="11dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_id"
+            android:layout_margin="9dp"
+            android:text="Start"
+            android:background="@color/start"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/pusebtn_id"
+            android:layout_margin="9dp"
+            android:text="Pause"
+            android:background="@color/pause"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stop_id"
+        android:layout_margin="9dp"
+        android:text="Stop"
+        android:background="@color/stop"
+
+        />
+
+
+</LinearLayout>
